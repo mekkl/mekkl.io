@@ -4,12 +4,12 @@ using mekkl.Application.Common.Interfaces;
 using mekkl.Application.Common.Interfaces.Services;
 using mekkl.Domain.Common;
 using mekkl.Domain.Entities;
-using IdentityServer4.EntityFramework.Options;
-using mekkl.Infrastructure.Identity;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Options;
+using Duende.IdentityServer.EntityFramework.Options;
+using mekkl.Infrastructure.Identity;
 
 namespace mekkl.Infrastructure.Persistence
 {
