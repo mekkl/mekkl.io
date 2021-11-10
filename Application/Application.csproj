@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>mekkl.Application</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0"/>
+    <PackageReference Include="FluentValidation" Version="10.3.0"/>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1"/>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj"/>
+  </ItemGroup>
+</Project>

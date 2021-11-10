@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>mekkl.Presentation.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="SonarAnalyzer.CSharp" Version="8.27.0.35380">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+  </ItemGroup>
+</Project>

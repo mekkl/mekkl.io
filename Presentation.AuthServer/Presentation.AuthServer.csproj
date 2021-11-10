@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+     <RootNamespace>mekkl.Presentation.AuthServer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4">
+      <Version>4.1.2</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
