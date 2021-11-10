@@ -6,21 +6,22 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 TODO
 
 ## Start the app
-First download and install the .NET Core SDK [here](https://dotnet.microsoft.com/download/dotnet-core/3.1).
+First download and install the .NET Core SDK [here](https://dotnet.microsoft.com/download).
 
-> You can check to see if you have installed the .Net Core SDK version 3.1 with this command ```$ dotnet --version```
+> You can check to see if you have installed the .Net Core SDK version 6.0 with this command ```$ dotnet --version```
 
 To startup the API open up a console, at the project root. 
 
-Firstly go to the ```web-api``` folder:
+Firstly go to the ```Presentation.WebApi``` folder:
 ```
-$ cd web-api
+$ cd Presentation.WebApi
 ```
 
 Then start the API application with the following command:
 ```
 $ dotnet run
 ```
+
 
 The output from the command should display which url and port the API is listining on:
 ```
