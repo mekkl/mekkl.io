@@ -3,7 +3,7 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 
 # Getting Started
 ## Setup for debug runs in VSC
-TODO
+TODO...
 
 ## Start the app
 First download and install the .NET Core SDK [here](https://dotnet.microsoft.com/download).
