@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Presentation.WebApi2.Controllers;
+namespace mekkl.Presentation.WebApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
