@@ -1,9 +1,11 @@
+[![.NET](https://github.com/mekkl/mekkl.io/actions/workflows/wf-dotnet-build.yml/badge.svg)](https://github.com/mekkl/mekkl.io/actions/workflows/wf-dotnet-build.yml)
+
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
 # Getting Started
 ## Setup for debug runs in VSC
-TODO
+TODO...
 
 ## Start the app
 First download and install the .NET Core SDK [here](https://dotnet.microsoft.com/download).
