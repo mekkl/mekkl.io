@@ -66,3 +66,5 @@ $ reportgenerator "-reports:*\TestResults\**\coverage.cobertura.xml" "-targetdir
 - https://medium.com/@tarik.nzl/publishing-test-coverage-with-net-core-and-vsts-build-pipelines-39a2f29dfa12
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 - Install ReportGenerator for DevOps for usage in pipeline: https://www.jamescroft.co.uk/combining-multiple-code-coverage-results-in-azure-devops/
+- https://github.com/coverlet-coverage/coverlet/blob/master/Documentation/VSTestIntegration.md
+- https://github.com/coverlet-coverage/coverlet
