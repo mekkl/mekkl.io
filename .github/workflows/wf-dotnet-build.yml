@@ -30,7 +30,7 @@ jobs:
     - name: Show files
       run: ls Tests/TestResults
     - name: Move coverage report
-      run: mv Tests/TestResults/**/coverage.info Tests/TestResults/
+      run: mv Tests/TestResults/*/*.info Tests/TestResults/
     - name: Coveralls GitHub Action
       uses: coverallsapp/github-action@1.1.3
       with:
