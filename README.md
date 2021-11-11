@@ -1,4 +1,5 @@
 [![.NET](https://github.com/mekkl/mekkl.io/actions/workflows/wf-dotnet-build.yml/badge.svg)](https://github.com/mekkl/mekkl.io/actions/workflows/wf-dotnet-build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/mekkl/mekkl.io/badge.svg?branch=main)](https://coveralls.io/github/mekkl/mekkl.io?branch=main)
 
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
@@ -68,3 +69,6 @@ $ reportgenerator "-reports:*\TestResults\**\coverage.cobertura.xml" "-targetdir
 - https://medium.com/@tarik.nzl/publishing-test-coverage-with-net-core-and-vsts-build-pipelines-39a2f29dfa12
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 - Install ReportGenerator for DevOps for usage in pipeline: https://www.jamescroft.co.uk/combining-multiple-code-coverage-results-in-azure-devops/
+- https://github.com/coverlet-coverage/coverlet/blob/master/Documentation/VSTestIntegration.md
+- https://github.com/coverlet-coverage/coverlet
+- https://coveralls.io/
