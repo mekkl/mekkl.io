@@ -1,7 +1,5 @@
-using System;
 using mekkl.Application.Posts.Queries;
 using Xunit;
-
 
 namespace mekkl.Tests.Application.Posts.Queries
 {
