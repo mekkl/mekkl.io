@@ -63,8 +63,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      shell: pwsh
       run: |
-        .\.sonar\scanner\dotnet-sonarscanner begin /k:"mekkl_mekkl.io" /o:"mekkl" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+        dotnet sonarscanner begin begin /k:"mekkl_mekkl.io" /o:"mekkl" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
         dotnet build --no-restore
-        .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
