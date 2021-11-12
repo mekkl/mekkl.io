@@ -32,6 +32,7 @@ jobs:
       with:
         github-token: ${{ github.token }}
         path-to-lcov: Tests/TestResults/coverage.info
+        
     - name: Set up JDK 11
       uses: actions/setup-java@v1
       with:
@@ -39,12 +40,14 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+        
     - name: Cache SonarCloud packages
       uses: actions/cache@v1
       with:
         path: ~\sonar\cache
         key: ${{ runner.os }}-sonar
         restore-keys: ${{ runner.os }}-sonar
+        
     - name: Cache SonarCloud scanner
       id: cache-sonar-scanner
       uses: actions/cache@v1
@@ -52,12 +55,15 @@ jobs:
         path: .\.sonar\scanner
         key: ${{ runner.os }}-sonar-scanner
         restore-keys: ${{ runner.os }}-sonar-scanner
+        
     - name: Install SonarCloud scanner
       if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
       shell: pwsh
+      # The --version argument is optional. If it is omitted the latest version will be installed.
       run: |
         New-Item -Path .\.sonar\scanner -ItemType Directory
-        dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+        dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner --version 4.8.0
+        
     - name: Build and analyze
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
