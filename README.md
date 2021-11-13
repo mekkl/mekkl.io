@@ -72,3 +72,4 @@ $ reportgenerator "-reports:*\TestResults\**\coverage.cobertura.xml" "-targetdir
 - https://github.com/coverlet-coverage/coverlet/blob/master/Documentation/VSTestIntegration.md
 - https://github.com/coverlet-coverage/coverlet
 - https://coveralls.io/
+- https://docs.specflow.org/projects/specflow/en/latest/vscode/test-execution.html

@@ -258,6 +258,9 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
+# Custom 
+*.feature.cs
+
 *.mdf
 *.ldf
 *.ndf
